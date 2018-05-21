@@ -1,0 +1,186 @@
+
+/* The following CSS rules show how CSS replaces the styles we specified in the HTML style sheet we used in the previous demo version */
+
+body {background-color: LightGoldenRodYellow;
+      font-family: "Times New Roman", Times, serif}
+/*h1 for all of the title in each page*/
+h1
+{color: black;
+      font-weight: 900;
+      font-size: 40px;
+      text-align: left;
+      padding: 20px;
+      font-family: "Palatino Linotype";
+      }
+/*h2 for the second title in center position*/
+h2
+{color:black;
+      font-weight: bold;
+      font-size: 25px ;
+      text-align: center;
+    font-family: "Times New Roman";
+}
+/*h3 for the second time in left position*/
+h3
+{color:black;
+
+      font-size: 20px ;
+      font-family: "Palatino Linotype";
+      padding: 0;
+}
+
+/*desin menu*/
+#menu {
+  /*width: 1200px;*/
+  height: 40px;
+  font-size: 15px;
+  font-family: "Times New Roman";
+  text-align: center;
+    background-color: #6D7993;
+
+  border-radius: 6px;
+}
+
+/* Menu division: format the unordered list so that it appears directly below the title of the page and below the edge of the colour background */
+#menu ul {
+  height: auto;
+  padding: 8px 0px;
+  margin: 0px;
+}
+
+/* Menu division: format the list items so that they display across the page instead of in a vertical list */
+#menu li {
+display: inline;
+padding: 20px;
+}
+
+/* Menu division: format the link items so that they are dark blue, spaced apart, and do not have underlines */
+#menu a {
+    text-decoration: none;
+    color: #FFFFFF;
+    padding: 8px 8px 8px 8px;
+}
+
+
+/*passion page setting*/
+#passion p{
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bold;
+    text-align: left;
+    margin: 90px;
+}
+textarea{
+    width: 90%;
+    height: 3em;
+}
+
+#feedback{
+    margin: 60px;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+/*button setting in the feedback page*/
+.but{
+
+    text-align: center;
+
+}
+
+.but input{
+    
+    font-weight: bolder;
+}
+.row{
+    align-items: center;
+}
+/*home page image setting for the for image button*/
+.home_img{
+    width: 100%;
+    height: 250px;
+}
+
+.home_link{
+    width: inherit;
+    padding: 5px;
+    margin: 5px;
+    height: 200px;
+}
+.ind_block{
+    display: table-cell;
+}
+.ind_block h2{
+    font-family: "Palatino Linotype";
+}
+
+.web-title{
+    font-family: "Palatino Linotype";
+}
+
+.background_image{
+    height: 300px;
+}
+
+.story_img{
+    width: 360px;
+    height: 500px;
+}
+/*opacity setting in the aboutme page*/
+.pass_para{
+    opacity: 0.5;
+    background-color: #FFFFFF;
+    text-align: left;
+
+}
+.pass_para p{
+    font-size: 20px;
+}
+
+#picpoem img{
+    display: block;
+    margin: 0 auto;
+}
+
+.intro p{
+    padding-top: 10px;
+    margin-right: 20px;
+
+}
+/*Image design*/
+#baijuyi img{
+    float: right;
+    margin-left: 20px;
+}
+/*words layout design*/
+#cao p{
+    text-align: center;
+}
+#palace p{
+    text-align: center;
+}
+#autumn p{
+    text-align: center;
+}
+#libo p{
+    text-align: center;
+}
+#fellowship p{
+    text-align: center;
+}
+#dufu p{
+    text-align: center;
+}
+#clothes p{
+    text-align: center;
+}
+#soidier p{
+    text-align: center;
+}
+#videopart h3{
+
+    margin: 20px;
+}
+#story h3{
+    text-align: center;
+}
